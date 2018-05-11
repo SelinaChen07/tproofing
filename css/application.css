@@ -1,0 +1,108 @@
+---
+---
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.cover_page {
+    /* The image used */
+    background-image: url("{{"/assets/images/image.jpg"|relative_url}}");
+
+    /* Full height */
+    height: 70%; 
+    min-height: 420px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cover_title{
+  max-width: 42em;
+}
+
+.w_85{
+	width: 85%;
+}
+
+.bg_dark_transparent{
+  background-color: rgb(52,58,64, 0.7);
+}
+
+#logo{
+	width: 4em;
+  height: 4em;
+}
+
+.icon{
+  width: 20%;
+  line-height: 1;
+  color: #007bff;
+  font-size: 2.2em;
+}
+
+#img_about_us{
+  max-width: 160px;
+}
+
+.testimonial_photo{
+  max-width: 80px; 
+}
+/*
+.tick:before
+{content:'\2713';
+  display:inline-block;
+  color:black;
+  padding:0 6px 0 0;
+  }
+ */
+
+.tick {
+	height: 1.2em;
+    width: 0.6em;
+    border: solid #FFFFFF;
+    border-width: 0px 4px 4px 0px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    display: inline-block;
+    margin: 5px .8em 0px 2px;
+}
+
+.tick_container{
+  height: 3em;
+  width: 3em;
+  
+}
+
+ .shadow{
+ 	box-shadow: 12px 12px 6px #888888;
+ }
+
+ .shadow_red{
+ 	box-shadow: 6px 6px 3px #e01a22;
+ }
+
+ .overflow_wrap{
+ 	white-space: normal;
+ }
+
+ #img_main{ 	
+ 	width: 100%;
+ 	height: auto;
+ }
+
+ .bg_logo{
+ 	background-repeat: no-repeat;
+ 	background-image: url("{{"/assets/images/logo2.png"|relative_url}}");
+ 	background-size: auto 100%;
+ 	background-position: 3% 0%;
+ }
+
+ .required::after{
+  content:" *";
+  color:red;
+}

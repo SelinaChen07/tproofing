@@ -1,0 +1,48 @@
+<header>
+
+	<nav class="navbar navbar-expand-xl bg-dark navbar-dark px-0">
+		
+
+			<!-- logo -->
+				<a class="navbar-brand ml-xl-5 pl-xl-5 ml-3 pl-3" href="{{"/" | relative_url }}">
+					<img src="{{"/assets/images/logo.jpg" | relative_url }}" id="logo" class="p-2 bg-white">
+					<h1 class="d-inline-block ml-2 mt-4">TP ROOFING</h1>
+				</a>
+
+				<!-- Toggler/collapsibe Button -->
+				<button class="navbar-toggler ml-4 mr-2" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				    <span class="navbar-toggler-icon"></span>
+				</button>					
+			
+
+			<!-- Navbar links -->
+	  		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav  mr-lg-5 pr-lg-5 mr-3 ml-3 pl-3">
+					<li class="nav-item"><a class="nav-link text-white {% if page.location == 'home' %} font-weight-bold {% endif %}" href="{{"/" | relative_url }}">HOME</a></li>
+					<li class="nav-item"><a class="nav-link text-white {% if page.title == 'About' %} font-weight-bold {% endif %}" href="{{"/about" | relative_url }}">ABOUT</a></li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle text-white {% if page.title == 'Services' %} font-weight-bold {% endif %}" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">SERVICES</a>
+					    <div class="dropdown-menu">
+					    	{% for service in site.data.services %}
+					    		 <a class="dropdown-item overflow_wrap border" href="#">{{service.name}}</a>
+					    	{% endfor %}
+					    <!--
+					      <a class="dropdown-item" href="#">Action</a>
+					      <a class="dropdown-item" href="#">Another action</a>
+					      <a class="dropdown-item" href="#">Something else here</a>
+					      <div class="dropdown-divider"></div>
+					      <a class="dropdown-item" href="#">Separated link</a>
+					      -->
+					    </div>
+					</li>
+					<li class="nav-item"><a class="nav-link text-white {% if page.title == 'Qualifications' %} font-weight-bold {% endif %}" href="{{"/quanlifications" | relative_url }}">QUALIFICATIONS</a></li>
+					<li class="nav-item"><a class="nav-link text-white {% if page.title == 'Testimonials' %} font-weight-bold {% endif %}" href="{{"/testimonials" | relative_url }}">TESTIMONIALS</a></li>
+					<li class="nav-item mr-2"><a class="nav-link text-white {% if page.title == 'Products' %} font-weight-bold {% endif %}" href="{{"/products" | relative_url }}">PRODUCTS</a></li>
+					<li class="nav-item "><a class="nav-link text-white bg-primary {% if page.title == 'Contact' %} font-weight-bold {% endif %}" href="{{"/contact" | relative_url }}">FREE QUATE</a></li>
+				</ul>
+			</div>
+
+		
+	</nav>
+
+</header>

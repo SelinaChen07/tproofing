@@ -29,15 +29,15 @@ layout: wrapper
         <div class="row">
         	{% for service in site.data.services %}
         		<div class="col-lg-4 col-md-6 ">
-        		<div class="d-flex flex-row">
-	            <div class="icon"><i class="{{service.icon}}"></i></div>
-	            <div>
-	            <h5 class="font-weight-bold">{{service.name}}</h5>
-	            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident... 
-	            <a href="#">Read more</a>
-	            </p>
-	            </div>
-	            </div>	            
+	        		<div class="d-flex flex-row">
+			            <div class="icon pr-3"><ion-icon name="{{service.icon}}"></ion-icon></div>
+			            <div>
+				            <h5 class="font-weight-bold">{{service.name}}</h5>
+				            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident... 
+				            <a href="#">Read more</a>
+				            </p>
+			            </div>
+		            </div>	            
 	          </div>
         	{% endfor %}
         </div>
@@ -88,10 +88,10 @@ layout: wrapper
 								<div class="text-secondary my-3 mx-5 mx-auto">
 									{{testimonial.words}}
 								</div>
-								<h4 class="font-weight-bold text-center">{{testimonial.who}}</h4>
-								<p class="text-center text-secondary lead">
+								<h5 class="font-weight-bold text-center">{{testimonial.who}}</h5>
+								<h6 class="text-center text-secondary">
 									{{testimonial.where}}
-								</p>
+								</h6>
 							</div>
 						{% endfor %}
 <!--					

@@ -1,8 +1,8 @@
 - name: "ROOF REPAIRS AND MAINTENANCE"
-  icon: ion-hammer
+  icon: hammer
 
 - name: "ROOF REPLACEMENT (RE-ROOFING)"
-  icon: ion-wand
+  icon: color-wand
 
 - name: "NEW ROOF INSTALLATION"
-  icon: ion-wrench
+  icon: build

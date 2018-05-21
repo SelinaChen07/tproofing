@@ -8,10 +8,10 @@ body, html {
 
 .cover_page {
     /* The image used */
-    background-image: url("{{"/assets/images/image.jpg"|relative_url}}");
+    background-image: url("{{"/assets/images/cover photo revised.jpeg"|relative_url}}");
 
     /* Full height */
-    height: 70%; 
+    height: 85%; 
     min-height: 420px;
 
     /* Center and scale the image nicely */
@@ -49,6 +49,23 @@ body, html {
 
 .testimonial_photo{
   max-width: 80px; 
+}
+
+.list_style_square{
+  list-style-type: square;
+}
+
+.border_bottom{
+  border-bottom: 1px solid #e7e6e6;
+}
+
+.product_img{
+  max-height: 200px;
+  width: auto;
+}
+
+#trent_img{
+  max-width: 200px;
 }
 /*
 .tick:before

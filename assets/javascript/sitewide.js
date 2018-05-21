@@ -20,6 +20,8 @@ $(document).ready(function(){
     autoplayTimeout:5000,
     autoplayHoverPause:true,
     margin:30,
+    nav:true,
+    autoHeight:true,
     responsiveClass:true,
     responsive: {
             0: {

@@ -16,9 +16,7 @@
 title: TP Roofing
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  TP Roofing specialize in quality roof repairs, roof installations and roof replacements. We repair and maintain concrete and terracotta tiled roofs, metal, slate, shingle and polycarbonate roofs. We are active members of both HIA and the Master Tilers and Slaters Associations. Our insurance policies are up to date and can be provided on request. We thoroughly assess your roof problems and deliver the best possible solution for your roofing needs. You receive prompt, reliable and personal service and solutions at an affordable price. 
 baseurl: "/tproofing" # the subpath of your site, e.g. /blog
 #baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

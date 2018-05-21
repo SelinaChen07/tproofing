@@ -24,7 +24,7 @@
 						<a class="nav-link dropdown-toggle text-white {% if page.title == 'Services' %} font-weight-bold {% endif %}" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">SERVICES</a>
 					    <div class="dropdown-menu">
 					    	{% for service in site.data.services %}
-					    		 <a class="dropdown-item overflow_wrap border" href="#">{{service.name}}</a>
+					    		 <a class="dropdown-item overflow_wrap border" href="{{service.permalink | relative_url }}">{{service.title}}</a>
 					    	{% endfor %}
 					    <!--
 					      <a class="dropdown-item" href="#">Action</a>
@@ -34,8 +34,7 @@
 					      <a class="dropdown-item" href="#">Separated link</a>
 					      -->
 					    </div>
-					</li>
-					<li class="nav-item"><a class="nav-link text-white {% if page.title == 'Qualifications' %} font-weight-bold {% endif %}" href="{{"/quanlifications" | relative_url }}">QUALIFICATIONS</a></li>
+					</li>					
 					<li class="nav-item"><a class="nav-link text-white {% if page.title == 'Testimonials' %} font-weight-bold {% endif %}" href="{{"/testimonials" | relative_url }}">TESTIMONIALS</a></li>
 					<li class="nav-item mr-2"><a class="nav-link text-white {% if page.title == 'Products' %} font-weight-bold {% endif %}" href="{{"/products" | relative_url }}">PRODUCTS</a></li>
 					<li class="nav-item "><a class="nav-link text-white bg-primary d-inline-block p-2 {% if page.title == 'Contact' %} font-weight-bold {% endif %}" href="{{"/contact" | relative_url }}">FREE QUATE</a></li>

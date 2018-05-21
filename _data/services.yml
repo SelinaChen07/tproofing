@@ -1,8 +1,16 @@
-- name: "ROOF REPAIRS AND MAINTENANCE"
+- capitalname: "ROOF REPAIRS AND MAINTENANCE"
   icon: hammer
+  title: Roof repairs and roof maintenance
+  permalink: /services/roof-repairs
 
-- name: "ROOF REPLACEMENT (RE-ROOFING)"
-  icon: color-wand
-
-- name: "NEW ROOF INSTALLATION"
+- capitalname: "NEW ROOF INSTALLATION"
   icon: build
+  title: New roofs installations
+  permalink: /services/new-roof
+
+- capitalname: "ROOF REPLACEMENT (RE-ROOFING)"
+  icon: color-wand
+  title: Roof replacement (re-roofing)
+  permalink: /services/re-roofing
+
+

@@ -1,0 +1,37 @@
+- type: Tiles
+  description: <p>As a CSR Roofing Specialist we receive competitive prices on Monier™ concrete and terracotta tiles. Both products offer good thermal and sound insulation and are resistant to extreme weather conditions. With a 50 year performance guarantee, these tiles are strong, durable and guaranteed to remain structurally sound. Moniers terracotta range come with a 50 year colour guarantee.</p><p>Concrete tiles are strong and durable and provide a more affordable solution, and are offered in a vast array of colours and profiles to suit any architectural style.</p><p>Terracotta roof tiles are fade-resistant and do not rust, warp or corrode, providing you with long-lasting features that will add value to your property. </p><p>For more information on Monier tiles see <a target="_blank" href="http://www.csrroofing.com.au">www.csrroofing.com.au</a></p>
+  shortdes: As a CSR Roofing Specialist we receive competitive prices on Monier™ concrete and terracotta tiles. Both products offer good thermal and sound insulation and are resistant to extreme weather conditions...
+  image:
+
+- type: Metal
+  description: <p>We replace your rusted metal roofs, gutters, valleys and down pipes with Colorbond® steel, selecting the colour most appropriate for your property. Strong and secure, and with a range of colours Colorbond offers long life performance. For more information and to choose from a range of available colours go to <a target="_blank" href="http://www.colorbond.com.au">www.colorbond.com.au</a></p>
+  shortdes: We replace your rusted metal roofs, gutters, valleys and down pipes with Colorbond® steel, selecting the colour most appropriate for your property...
+  image:
+
+- type: Flexi point
+  description: <p>TP Roofing uses 4x1 cement mix and applies flexi point system to secure down all our ridge caps. This is the preferred method in the roofing industry as flexi point is very strong and flexible enabling it to endure cyclonic conditions. Colours are varied and are specifically chosen to complement your existing roof. </p>
+  shortdes: TP Roofing uses 4x1 cement mix and applies flexi point system to secure down all our ridge caps...
+  image:
+
+- type: Flashings
+  description: <p>Roof flashings are used to prevent or fix roof leaks at walls, barges, gables, chimneys, skylights and where any two roofing surfaces meet. We are experts at diagnosing the cause of roof leaks and using the best solution for your needs. Roof flashings include custom made Colorbond flashings, 20kg lead flashing or lead free flashing.</p>
+  shortdes: Roof flashings are used to prevent or fix roof leaks at walls, barges, gables, chimneys, skylights and where any two roofing surfaces meet...
+  image:
+
+- type: Sarking
+  description: <p>We install heavy duty sarking on all new roofs and re-roofs. This reduces dampness in the roof cavity, provides a barrier against both dust and moisture, and offers additional thermal insulation and protection from wild weather. Sarking provides a fire retardant barrier in bush fire areas as it prevents embers entering the roof. </p>
+  shortdes: We install heavy duty sarking on all new roofs and re-roofs. This reduces dampness in the roof cavity, provides a barrier against both dust and moisture, and offers additional thermal insulation and protection from wild weather...
+  image:
+
+- type: Leaf screens
+  description: <p>For leaf screens on gutters and valleys we use GutterScreen™, the leader in gutter and valley protection. GutterScreen offers a 10 warranty on its polyethylene plastic which is available in a wide range of colours to match in with your roof. They also offer a 15 year warranty on aluminium and stainless Steel GutterScreen products.</p>
+  shortdes: For leaf screens on gutters and valleys we use GutterScreen™, the leader in gutter and valley protection...
+  image:
+
+- type: Ventilation
+  description: <p>Best suited to Sydney’s weather conditions, TP Roofing’s uses CSR Edmonds Windmaster for residential whirlybird installations. They come in a variety of colours, and offer a lifetime warranty for the body of the ventilator, and a 10 year warranty for the bearings. </p>
+  shortdes: Best suited to Sydney’s weather conditions, TP Roofing’s uses CSR Edmonds Windmaster for residential whirlybird installations...
+  image:
+
+
+

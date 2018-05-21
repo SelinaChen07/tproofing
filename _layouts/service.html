@@ -1,0 +1,31 @@
+---
+title: "Services"
+layout: "wrapper"
+---
+
+    <main class="container p-5">
+      <div class="row">
+        <div class="col-md-8 col-lg-9">
+            <h2 class="mb-4">{{page.service-name}}</h2>            
+            {{content}}
+        </div><!-- /.service description -->
+
+        
+        <aside class="col-md-4 col-lg-3">
+          <div class="p-3 ">
+            <ol class="list-unstyled mb-2">
+            	{% for service in site.data.services %}
+            		<li class="border_bottom p-2"><a href="{{service.permalink | relative_url }}" class="{% if page.permalink == service.permalink %} font-weight-bold disabled_link {% endif %}">>{{service.title}}</a></li>
+            	{% endfor %}
+            <!--
+              <li class="border_bottom p-2"><a href="#">> Roof repairs and roof maintenance</a></li>
+              <li class="border_bottom p-2"><a href="#">> New roofs installations</a></li>
+              <li class="p-2"><a href="#">> Roof replacement (re-roofing)</a></li> 
+              -->             
+            </ol>
+          </div>          
+        </aside><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </main><!-- /.container -->

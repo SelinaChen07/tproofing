@@ -4,12 +4,12 @@ layout: wrapper
 <!-- Banner Area -->
 <section class="cover_page" id="home">
 	<!-- Cover photo is communicating to customers -->
-	<div class="cover_title mx-auto h-100 d-flex justify-content-center align-items-center flex-column text-center p-4">
-		<div class="bg_dark_transparent text-white p-4">
+	<div class="cover_title mx-auto h-100 text-center p-4">
+		<div class="text-white p-4 mt-5">
 	<!-- Our vision, a sentence that talk to our valued customer -->
-		<h1 class="font-weight-bold ">Quality is all we are after</h1>
+		<h1 class="font-weight-bold ">Quality roofing is what we do</h1>
 	<!-- How to achieve the vision -->
-		<p class="lead "> With over 25 years experiences in the industry, we provide prompt, reliable and personal roofing services and solutions at an affordable price to Sydney-wide.</p>
+		<p class="lead "> With over 25 years experiences in the industry, we provide prompt, reliable and personal roofing services and solutions at an affordable price Sydney-wide.</p>
 		</div>
 	</div>	
 </section>
@@ -22,7 +22,7 @@ layout: wrapper
         <header class="pb-3 col-lg-8 col-xl-6 col-10 text-center">
           <h2 class="mb-2 font-weight-bold">SERVICES</h2>
           <p> All our roofing work is carried out by fully licensed and insured tradesmen in accordance with industry Occupational Health and Safety Standards.</br>
-          <span class="text-primary font-weight-bold">We guarantee all repairs for 2 years and all new roofs for 7 years.</span></p>
+          <span class="text-primary font-weight-bold">ROOF REPAIRS ARE WARRENTIED FOR <span class="lead font-weight-bold">2</span> YEARS AND ALL NEW ROOFS HAVE <span class="lead font-weight-bold">10</span> YEAR WORKMANSHIP GUARENTEE</span></p>
         </header>
       </div>
 
@@ -32,9 +32,9 @@ layout: wrapper
 	        		<div class="d-flex flex-row">
 			            <div class="icon pr-3"><ion-icon name="{{service.icon}}"></ion-icon></div>
 			            <div>
-				            <h5 class="font-weight-bold">{{service.name}}</h5>
+				            <h5 class="font-weight-bold">{{service.capitalname}}</h5>
 				            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident... 
-				            <a href="#">Read more</a>
+				            <a href="{{service.permalink | relative_url }}">Read more</a>
 				            </p>
 			            </div>
 		            </div>	            
@@ -63,7 +63,7 @@ layout: wrapper
 				<p>TP Roofing is a family owned and operated business established by Trent Faulkner. Trent is renowned in the industry for his honesty, integrity, hard work and experience in the field. </p>
 				<p>TP Roofing are members of the Master Tilers and Slaters Association and were hand-picked to join the CSR Roofing Specialists, an elite team of roofing companies giving us the ability to offer you Monier terracotta and concrete tiles at competitive prices. CSR also provide invaluable technical product support and advice.</p>
 				<p>We also ensure that we respect your property, paying particular care with your lawn and gardens, and removing all debris and waste on completion of the job.</p>
-				<div><button class="btn btn-dark"><a href="{{"/about/" | relative_url }}" class="text-white">More About Us >></a></button></div>
+				<div><a class="btn btn-dark text-white" href="{{"/about" | relative_url }}">More About Us >></a></div>
 			</div>																
 		</div>
 	</div>	
@@ -94,118 +94,8 @@ layout: wrapper
 								</h6>
 							</div>
 						{% endfor %}
+					</div>
+					<div class="text-right"><a class="btn btn-dark text-white" href="{{"/testimonials" | relative_url }}">More Testimonials >></a></div>
 				</div>	
 			</section>
 			<!-- End testomial Area -->
-
-
-
-
-<!--
-<div class="w_85 mx-auto mb-5">
-
-	<section class="my-3 row">
-		<div class="col-xl-4">
-			<h4 class="font-weight-bold">Our Specialties</h4>
-			{% for service in site.data.services %}
-				<div class="font-italic btn btn-danger btn-lg btn-block shadow overflow_wrap mb-3 text-left"><span class="tick"></span>{{service.name}}</div>
-			{% endfor %}
-			
-			<div class="font-italic btn btn-danger btn-lg btn-block shadow overflow_wrap mb-3 text-left"><span class="tick"></span>Stroke, Parkinsons and other Neurological Rehabilitation</div>
-			<div class="font-italic btn btn-danger btn-lg btn-block shadow overflow_wrap mb-3 text-left"><span class="tick"></span>Women's Health and Postnatal Care</div>
-			<div class="font-italic btn btn-danger btn-lg  btn-block shadow overflow_wrap mb-3 text-left"><span class="tick"></span>Paediatric Physiotherapy</div>
-			<div class="font-italic btn btn-danger btn-lg btn-block shadow overflow_wrap mb-3 text-left"><span class="tick"></span>Cardiopulmonary Rehabilitation</div>	
-			
-		</div>
-		<div class="text-center col-xl-8 position-relative">
-			<img src={{"/assets/images/main.jpg" | relative_url}} class="img-fluid img_middle" id="img_main">
-		</div>
-	</section>
-
-
-	<div class="row">
-		<div class="col-lg-8" >
-			<section class="text-center bg_logo my-3">
-					<h3 class="font-weight-bold">Welcome to <span class="">North Ryde Family Physio</span></h3>
-					<h4 class="font-weight-bold text-danger">We Provide home visits to neurological or less mobile patient.</h4>	
-			</section>
-
-			<section>
-				<p>North Ryde Family Physio is a family-run physiotherapy company that aims to provide the best possible health care to our local communities. Whether you suffer from chronic pain, an acute injury, or want effective rehabilitation and training for sport, we’re here to help!</p>
-				<p>We provide physiotherapy services and solutions for a number of well established facilities including medical centres, nursing homes, corporate companies and so on.</p>
-				<p>We are conveniently located in a number of busy locations throughout Sydney to best suit your needs. We understand that every presentation is not the same, and our physios are trained to treat all aspects of your health in a comprehensive manner to ensure you are completely satisfied with your health.</p>
-			</section>
-		</div>
-
-		<div class="col-lg-4 border border-light bg-light rounded shadow p-3">
-			<h4 class="font-weight-bold text-center">About Us</h4>
-			<ul>
-				<li>Principal Physiotherapist</li>
-				<li>B.App.Sc. (PHTY).Sydney Uni</li>
-				<li>WorkCover Accredited Physiotherapist</li>
-				<li>Member of Australian Physiotherapy Association</li>
-				<li>Deputy Chair of APA acupuncture and dry needling committee</li>
-				<li>Committee member of APA Physiotherapy Business Australia</li>			
-			</ul>
-			<button class="btn btn-secondary float-right"><a href="{{"/about/" | relative_url }}" class="text-white">More About Us</a></button>
-		</div>
-	</div>
-
-	<div class="row mt-5 border border-light bg-light rounded shadow">
-		<section class="col-xl-3 p-3">
-			<h5 class="font-weight-bold">Office Hours</h5>
-			<div class="row">
-				<ul class="col-4 list-unstyled font-weight-bold">
-					<li>Monday</li>
-					<li>Tuesday</li>
-					<li>Wednesday</li>
-					<li>Thursday</li>
-					<li>Friday</li>
-					<li>Saturday</li>			
-				</ul>	
-				<ul class="col-8 list-unstyled">
-					<li>9am - 5pm</li>
-					<li>9am - 5pm</li>
-					<li>9am - 5pm</li>
-					<li>9am - 5pm</li>
-					<li>9am - 5pm</li>
-					<li>9am - 5pm</li>			
-				</ul>
-		</section>
-
-		<section class="col-xl-5 p-3">
-			<h5 class="font-weight-bold">Home Visit Hours</h5>
-			<div class="row">
-				<ul class="col-4 list-unstyled font-weight-bold">
-					<li>Tuesday</li>
-					<li>Friday</li>
-					<li>Home Visit Areas</li>							
-				</ul>	
-				<ul class="col-8 list-unstyled">
-					<li>9am - 5pm</li>
-					<li>9am - 5pm</li>		
-					<li>North Ryde, East Ryde and Ryde suburbs</li>			
-				</ul>
-		</section>
-
-		<section class="col-xl-4 p-3">
-			<h5 class="font-weight-bold">Contact Us</h5>
-			<div class="row">
-				<ul class="col-3 list-unstyled font-weight-bold">
-					<li>Phone</li>
-					<li>Mobile</li>
-					<li>Email</li>
-					<li>Address</li>							
-				</ul>	
-				<ul class="col-9 list-unstyled">
-					<li>(02) 8819 4339</li>
-					<li>0450 588 670</li>
-					<li>info@northrydefamilyphysio.com.au</li>
-					<li>263 Rowe St, Eastwood, NSW 2122</li>										
-				</ul>
-			</div>
-		</section>
-		
-	</div>
-</div>
--->

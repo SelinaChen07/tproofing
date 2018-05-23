@@ -1,6 +1,16 @@
 ---
 ---
 
+.h_5{
+  height: 5em;
+  width: auto;
+}
+
+.h_10{
+  height: 10em;
+  width: auto;
+}
+
 body, html {
     height: 100%;
     margin: 0;
@@ -29,7 +39,17 @@ body, html {
 }
 
 .bg_dark_transparent{
-  background-color: rgb(52,58,64, 0.7);
+  background-color: rgb(52,58,64, 0.3);
+}
+
+.bg_tile_photo{
+    /* The image used */
+    background-image: url("{{"/assets/images/roofBackground.jpg"|relative_url}}");
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 #logo{
@@ -37,18 +57,23 @@ body, html {
   height: 4em;
 }
 
-.icon{
+.icon_home_service{
   line-height: 1;
   color: #007bff;
   font-size: 1.6em;
+}
+
+.icon_navbar{
+  font-size: 1.2em;
+  line-height: 1;
 }
 
 #img_about_us{
   max-width: 160px;
 }
 
-.testimonial_photo{
-  max-width: 80px; 
+.max_width_5{
+  max-width: 5em; 
 }
 
 .list_style_square{
@@ -62,10 +87,6 @@ body, html {
 .product_img{
   max-height: 200px;
   width: auto;
-}
-
-#trent_img{
-  max-width: 200px;
 }
 /*
 .tick:before

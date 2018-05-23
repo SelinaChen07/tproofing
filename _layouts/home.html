@@ -34,7 +34,7 @@ layout: wrapper
 			            <div>
 				            <h5 class="font-weight-bold">{{service.capitalname}}</h5>
 				            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident...</p>
-				            <p><a href="{{service.permalink | relative_url }}">Read more>></a>
+				            <p><a href="{{service.permalink | relative_url }}">{{service.more}} >></a>
 				            </p>
 			            </div>
 		            </div>	            
@@ -66,7 +66,8 @@ layout: wrapper
                 <div class="card-body">
                   <h5 class="card-title text-center font-weight-bold text-primary">ROOF SAFETY</h5>
                   <p class="card-text">As members of the Housing Industry Association (HIA) and The Master Roof Tilers and Slaters Association, we maintain high safety standards. Our insurance policies are up to date and can be provided on request.</p>
-                  <p><a href="{{"/about#roof_safety" | relative_url }}">Read more>></a></p>
+                  <!--
+                  <p><a href="{{"/about#roof_safety" | relative_url }}">Read more>></a></p>-->
                 </div>
               </div>
             </div>
@@ -80,12 +81,13 @@ layout: wrapper
                 <div class="card-body">
                   <h5 class="card-title text-center font-weight-bold text-primary">CSR ROOFING SPECIALISTS</h5>
                   <p class="card-text">TP Roofing were hand-picked to join the CSR Roofing Specialists, which gives us the ability to offer you Monier terracotta and concrete tiles at competitive prices.</p>
-                  <p><a href="{{"/about#csr_specialist" | relative_url }}">Read more>></a></p>
+                  <!--
+                  <p><a href="{{"/about#csr_specialist" | relative_url }}">Read more>></a></p>-->
                 </div>
               </div>
             </div>
         </div>		
-        <div class="pt-3 text-right"><a class="text-white" href="{{"/about" | relative_url }}">More About Us >></a></div>
+        <div class="pt-3 text-right"><a class="text-white btn btn-dark" href="{{"/about" | relative_url }}">More About Us >></a></div>
 		<!--		
 		<div class="row">
 			<div class="col-lg-2 col-12 text-center ">
@@ -127,7 +129,7 @@ layout: wrapper
 				</div>
 			{% endfor %}
 		</div>
-		<div class="text-right pt-3"><a class="text-secondary" href="{{"/testimonials" | relative_url }}">More Testimonials >></a></div>
+		<div class="text-right pt-3"><a class="text-white btn btn-dark" href="{{"/testimonials" | relative_url }}">More Testimonials >></a></div>
 	</div>	
 </section>
 		

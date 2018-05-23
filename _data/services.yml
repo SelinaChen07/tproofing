@@ -2,15 +2,18 @@
   icon: hammer
   title: Roof repair and roof maintenance
   permalink: /services/roof-repair-maintenance
+  more: More on roof repair & maintenance
 
 - capitalname: "NEW ROOF INSTALLATION"
   icon: build
   title: New roof installation
   permalink: /services/new-roof-installation
+  more: More on new roof
 
 - capitalname: "ROOF REPLACEMENT (RE-ROOFING)"
   icon: color-wand
   title: Roof replacement (re-roofing)
   permalink: /services/re-roofing-roof-replacement
+  more: More on roof replacement
 
 

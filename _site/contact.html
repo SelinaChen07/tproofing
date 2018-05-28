@@ -89,12 +89,12 @@
     
     
 	  <script type="text/javascript">var submitted=false;</script>
- <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='http://localhost:4000/';}"></iframe>
+ <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='/form-submit';}"></iframe>
  
 
-<div class="my-5">
+<div class="my-5 container">
 
-	<form action="https://docs.google.com/forms/d/e/1FAIpQLSfowZnotJnnxx3n8eMCBRk-945mBSW-Y05zwe8buno14NFF8w/formResponse" autocomplete="off" class="w-50 mx-auto" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+	<form action="https://docs.google.com/forms/d/e/1FAIpQLSfowZnotJnnxx3n8eMCBRk-945mBSW-Y05zwe8buno14NFF8w/formResponse" autocomplete="off" method="post" target="hidden_iframe" onsubmit="submitted=true;">
 		<h3 class="my-5 text-center">Contact Us for Your Free Quote</h3>
 	
 		<div class="row">
@@ -132,29 +132,54 @@
 </div>
     
 
-    <!-- Start contact Area -->
-<section class="p-5 bg-secondary text-white d-flex flex-md-row flex-column justify-content-around">
-		
-		<ul class="list-unstyled">
-				<li class="lead">TP Roofing</li>
-				<li>Licence number: 168904C</li>
-				<li>ABN: 61 111 118 631</li>
-		</ul>
-		
-		<div>
-			<ul class="list-unstyled text-left">
-				<li>Phone: 02 9888 6454</li>
-				<li>Fax: &nbsp&nbsp02 9888 6454</li>
-				<li>Email: tp@tproofing.com.au</li>
-				<li>Mail: &nbspPO Box 1074, Lane Cove NSW 1595</li>							
-			</ul>			
-		</div>
-</section>
-<!-- End contact Area -->
+    <footer>
+	<!-- Start Information Area -->
+	<section class="p-5 bg-secondary text-white d-flex flex-md-row flex-column justify-content-around">
+			
+			<div>					
+				<h3 class="font-weight-bold">TP ROOFING</h3>
+				<ul class="list-unstyled text-left">
+					<li><img src="/assets/images/logo.jpg" id="logo" class="p-2 bg-white"></li>
+				
+					<li>Licence number: 168904C</li>
+					<li>ABN: 61 111 118 631</li>
+				</ul>
+			</div>
 
-<footer class="navbar bg-dark text-white ">
-	
-		<small id="copyright">&copy;Copyright | TP Roofing All rights reserved. </small>
+			<div>					
+				<h3 class="font-weight-bold">USEFUL LINKS</h3>
+				<ul class="list-unstyled text-left">
+					<li><a class="text-white" href="/about">> About us</a></li>
+					
+			    		<li><a class="text-white" href="/services/roof-repair-maintenance">> Roof repair and roof maintenance</a></li>
+					
+			    		<li><a class="text-white" href="/services/new-roof-installation">> New roof installation</a></li>
+					
+			    		<li><a class="text-white" href="/services/re-roofing-roof-replacement">> Roof replacement (re-roofing)</a></li>
+					
+					<li><a class="text-white" href="/testimonials">> Testimonials</a></li>
+					<li><a class="text-white" href="/products">> Our products</a></li>
+					<li><a class="text-white" href="/contact">> Get a free quote</a></li>
+					
+				</ul>
+			</div>
+			
+			<div>
+				<h3 class="font-weight-bold">CONTACT US</h3>				
+				<ul class="list-unstyled text-left">
+					<li>Phone: 02 9888 6454</li>
+					<li>Fax: &nbsp&nbsp02 9888 6454</li>
+					<li>Email: tp@tproofing.com.au</li>
+					<li>Mail: &nbspPO Box 1074, Lane Cove NSW 1595</li>							
+				</ul>			
+			</div>
+	</section>
+	<!-- End Information Area -->
+
+	<section class="navbar bg-dark text-white ">
+		
+			<small id="copyright">&copy;Copyright | TP Roofing All rights reserved. </small>
+	</section>
 	
 </footer>
 
@@ -168,6 +193,7 @@
     <script src ="/assets/javascript/jquery-2.2.4.min.js"></script>
     <script src ="/assets/javascript/owl.carousel.min.js"></script>
 
+    <!-- ion icons -->  
     <script src="https://unpkg.com/ionicons@4.0.0/dist/ionicons.js"></script>
 
     <!-- My JavaScript -->

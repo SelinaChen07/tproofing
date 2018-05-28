@@ -4,4 +4,5 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 location: 'home'
+title: "Roof Repair and Roof Replacement"
 ---

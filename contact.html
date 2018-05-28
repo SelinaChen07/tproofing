@@ -4,12 +4,12 @@ layout: "wrapper"
 ---
 
 <script type="text/javascript">var submitted=false;</script>
- <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='http://localhost:4000/';}"></iframe>
+ <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='{{"/form-submit" | relative_url }}';}"></iframe>
  
 
-<div class="my-5">
+<div class="my-5 container">
 
-	<form action="https://docs.google.com/forms/d/e/1FAIpQLSfowZnotJnnxx3n8eMCBRk-945mBSW-Y05zwe8buno14NFF8w/formResponse" autocomplete="off" class="w-50 mx-auto" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+	<form action="https://docs.google.com/forms/d/e/1FAIpQLSfowZnotJnnxx3n8eMCBRk-945mBSW-Y05zwe8buno14NFF8w/formResponse" autocomplete="off" method="post" target="hidden_iframe" onsubmit="submitted=true;">
 		<h3 class="my-5 text-center">Contact Us for Your Free Quote</h3>
 	
 		<div class="row">

@@ -13,9 +13,9 @@ layout: "wrapper"
 
       <div class="row">
           {% for product in site.data.products %}
-            <div class="col-lg-4 col-sm-6 col-12 d-flex align-self-stretch my-3">
-              <div class="w_85 bg-light border p-3 text-center">
-                <img src="{{"/assets/images/products/p1.jpeg"|relative_url}}" class="card-img-top product_img" alt="">
+            <div class="col-lg-4 col-md-6 col-12 d-flex align-self-stretch my-3">
+              <div class="bg-light border p-3 text-center">
+                <a href="#{{product.type}}"><img src="{{product.image|relative_url}}" class="card-img-top w_85" alt="{{product.type}}"></a>
                 <div class="card-body">
                   <h4 class="card-title"><a href="#{{product.type}}">{{product.type}}</a></h4>
                   <p class="card-text">{{product.shortdes}}</p>

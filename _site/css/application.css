@@ -3,8 +3,18 @@
   width: auto;
 }
 
+.h_8{
+  height: 8em;
+  width: auto;
+}
+
 .h_10{
   height: 10em;
+  width: auto;
+}
+
+.h_20{
+  height: 20em;
   width: auto;
 }
 
@@ -13,7 +23,7 @@ body, html {
     margin: 0;
 }
 
-.cover_page {
+.cover_photo {
     /* The image used */
     background-image: url("/assets/images/cover%20photo%20revised.jpeg");
 
@@ -33,6 +43,7 @@ body, html {
 
 .w_85{
 	width: 85%;
+  height: auto;
 }
 
 .bg_dark_transparent{
@@ -79,11 +90,6 @@ body, html {
 
 .border_bottom{
   border-bottom: 1px solid #e7e6e6;
-}
-
-.product_img{
-  max-height: 200px;
-  width: auto;
 }
 /*
 .tick:before

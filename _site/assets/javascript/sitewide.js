@@ -12,8 +12,10 @@ $(document).ready(function(){
 
 	//stick footer to the bottom of window if the content is too short
 	if($('body').height() < window.innerHeight){
+		console.log("It's short!");
 		$('footer').addClass('fixed-bottom');
 	}
+
 
 	$('.owl-carousel').owlCarousel({
     loop:false,

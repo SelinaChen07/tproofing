@@ -18,6 +18,11 @@
   width: auto;
 }
 
+.w_30{
+  width: 30em;
+  height: auto;
+}
+
 body, html {
     height: 100%;
     margin: 0;

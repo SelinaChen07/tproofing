@@ -33,7 +33,7 @@ layout: wrapper
 			            <div class="icon_home_service pr-3"><ion-icon name="{{service.icon}}"></ion-icon></div>
 			            <div>
 				            <h5 class="font-weight-bold">{{service.capitalname}}</h5>
-				            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident...</p>
+				            <p class="description">{{service.shortdes}}</p>
 				            <p><a href="{{service.permalink | relative_url }}">{{service.more}} >></a>
 				            </p>
 			            </div>
@@ -118,7 +118,7 @@ layout: wrapper
 		<div class="card-deck">
 			{% for testimonial in site.data.testimonials-3 %}
 				<div class="card rounded p-4 bg-white ">
-					<img class="mx-auto my-3 max_width_5" src="{{testimonial.photo | relative_url}}" alt="">
+					<img class="mx-auto my-3 h_8" src="{{testimonial.photo | relative_url}}" alt="TP Roofing Testimonial from {{testimonial.where}}">
 					<div class="text-secondary my-3 mx-5 mx-auto">
 						{{testimonial.words}}
 					</div>

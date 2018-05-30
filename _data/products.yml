@@ -16,12 +16,12 @@
 - type: Flashings
   description: <p>Roof flashings are used to prevent or fix roof leaks at walls, barges, gables, chimneys, skylights and where any two roofing surfaces meet. We are experts at diagnosing the cause of roof leaks and using the best solution for your needs. Roof flashings include custom made Colorbond flashings, 20kg lead flashing or lead free flashing.</p>
   shortdes: Roof flashings are used to prevent or fix roof leaks at walls, barges, gables, chimneys, skylights and where any two roofing surfaces meet...
-  image: "/assets/images/products/Our products  metal.jpg"
+  image: "/assets/images/products/our products flashing.jpg"
 
-- type: Sarking
-  description: <p>We install heavy duty sarking on all new roofs and re-roofs. This reduces dampness in the roof cavity, provides a barrier against both dust and moisture, and offers additional thermal insulation and protection from wild weather. Sarking provides a fire retardant barrier in bush fire areas as it prevents embers entering the roof. </p>
-  shortdes: We install heavy duty sarking on all new roofs and re-roofs. This reduces dampness in the roof cavity, provides a barrier against both dust and moisture, and offers additional thermal insulation and protection from wild weather...
-  image: "/assets/images/products/our products sarking.jpg"
+#- type: Sarking
+#  description: <p>We install heavy duty sarking on all new roofs and re-roofs. This reduces dampness in the roof cavity, provides a barrier against both dust and moisture, and offers additional thermal insulation and protection from wild weather. Sarking provides a fire retardant barrier in bush fire areas as it prevents embers entering the roof. </p>
+#  shortdes: We install heavy duty sarking on all new roofs and re-roofs. This reduces dampness in the roof cavity, provides a barrier against both dust and moisture, and offers additional thermal insulation and protection from wild weather...
+#  image: "/assets/images/products/our products sarking.jpg"
 
 - type: Leaf screens
   description: <p>For leaf screens on gutters and valleys we use GutterScreen™, the leader in gutter and valley protection. GutterScreen offers a 10 warranty on its polyethylene plastic which is available in a wide range of colours to match in with your roof. They also offer a 15 year warranty on aluminium and stainless Steel GutterScreen products.</p>
@@ -31,7 +31,7 @@
 - type: Ventilation
   description: <p>Best suited to Sydney’s weather conditions, TP Roofing’s uses Monier Edmonds Windmaster for residential whirlybird installations. They come in a variety of colours, and offer a lifetime warranty for the body of the ventilator, and a 10 year warranty for the bearings. </p>
   shortdes: Best suited to Sydney’s weather conditions, TP Roofing’s uses Monier Edmonds Windmaster for residential whirlybird installations...
-  image: "/assets/images/products/Our products  metal.jpg"
+  image: "/assets/images/products/our products ventilation.jpg"
 
 
 

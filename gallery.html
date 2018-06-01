@@ -1,0 +1,43 @@
+---
+title: "Gallery"
+layout: "wrapper"
+---
+
+<main class="container p-5" id="product_list">
+      <div class="row d-flex justify-content-center">
+        <header class="pb-3 col-lg-8 col-xl-8 col-10 text-center">
+          <h2 class="mb-2 font-weight-bold">Our Gallery</h2>
+          <p class="text-muted"></p>
+        </header>
+      </div>
+
+      <div class="row">
+          {% for photo in site.data.gallery %}
+            <div class="col-md-6 col-12 d-flex align-self-stretch my-3">
+              <div class="bg-light border p-3 text-center">
+                  <!-- Trigger the Modal -->
+                  <img id="" src="{{photo.address|relative_url}}" alt="{{photo.title}}" class="img_for_modal card-img-top w_85">                  
+                <!--
+                <a href="#{{product.type}}"><img src="{{product.image|relative_url}}" class="card-img-top w_85" alt="{{product.type}}"></a>
+                -->
+                <div class="card-body">
+                  <h5 class="card-title font-weight-bold">{{photo.title}}</h5>
+                  <p class="card-text"></p>                  
+                </div>           
+              </div>
+            </div>
+          {% endfor %}
+      </div>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>    
+
+      
+</main>

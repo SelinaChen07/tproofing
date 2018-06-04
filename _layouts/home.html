@@ -28,7 +28,7 @@ layout: wrapper
 
         <div class="row">
         	{% for service in site.data.services %}
-        		<div class="col-md-4 col-12 ">
+        		<div class="col-lg-4 col-12 ">
 	        		<div class="d-flex flex-row">
 			            <div class="icon_home_service pr-3"><ion-icon name="{{service.icon}}"></ion-icon></div>
 			            <div>
@@ -57,7 +57,7 @@ layout: wrapper
 		</div>	
 		<div class="card-deck">
 		  <!-- Roof safety -->
-          <div class="card">          	
+          <div class="card mb-2">          	
               <div class="bg-white rounded p-3">
               	<div class="card-img-top text-center">
 	              	<a target="_blank" href="https://hia.com.au/"><img src="{{"/assets/images/Logo-HIA.jpg" | relative_url }}" class="img-fluid h_8 mr-5" alt="TP Roofing member of HIA" ></a>
@@ -73,7 +73,7 @@ layout: wrapper
             </div>
 
             <!-- Monier Specialist -->
-            <div class="card">          	
+            <div class="card mb-2">          	
               <div class="bg-white rounded p-3">
               	<div class="card-img-top text-center">
 	              	<a target="_blank" href="http://www.monier.com.au"><img src="{{"/assets/images/Monier_RS_Logo_rgb.png" | relative_url }}" class="h_8" alt="TP Roofing Monier Roofing Specialist" ></a>
@@ -115,9 +115,9 @@ layout: wrapper
 			</div>
 		</div>
 							
-		<div class="card-deck">
+		<div class="row">
 			{% for testimonial in site.data.testimonials-3 %}
-				<div class="card rounded p-4 bg-white ">
+				<div class="card rounded p-4 bg-white col-12 col-md-4">
 					<img class="mx-auto my-3 h_8" src="{{testimonial.photo | relative_url}}" alt="TP Roofing Testimonial from {{testimonial.where}}">
 					<div class="text-secondary my-3 mx-5 mx-auto">
 						{{testimonial.words}}

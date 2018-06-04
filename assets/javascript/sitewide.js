@@ -11,9 +11,10 @@ $(document).ready(function(){
 	}
 
 	//stick footer to the bottom of window if the content is too short(it won't work if define body height 100%)
-	if($('body').height() < window.innerHeight){
-		$('footer').addClass('fixed-bottom');
-	}
+	//if($('body').height() < window.innerHeight){
+    //    console.log("stick foot");
+	//	$('footer').addClass('fixed-bottom');
+	//}
 
     if($('.owl-carousel').length){
     	$('.owl-carousel').owlCarousel({

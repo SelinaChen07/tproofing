@@ -6,9 +6,15 @@ permalink: /services/roof-repair-maintenance
 ---
 <div>
 	<h5 class="text-secondary">TP Roofing use only the highest quality roofing materials to fix leaking roofs Sydney wide.</h5>
-    <h5 class="text-primary">ROOF REPAIR ARE WARRENTIED FOR 2 YEARS</h5>
+    <h5 class="text-secondary">ROOF REPAIR ARE WARRENTIED FOR <span class="font-weight-bold"> 2 YEARS</span></h5>
 
 	<ul class="lead list_style_square  text-uppercase">
+        {% assign items = site.data.services.first.items %}
+        {% for item in items %}
+            <li><a href="">{{item.name}}</a></li>
+        {% endfor %}
+        
+<!--
         <li>Replace broken or missing tiles or ridge caps</li>
         <li>Seal pest and possum entry points</li>
         <li>Install roof ventilation - whirlybirds</li>
@@ -19,6 +25,7 @@ permalink: /services/roof-repair-maintenance
         <li>Replace valleys, gutters and downpipes</li>
         <li>Re-bed and point ridge caps and gable tiles</li>
         <li>Install roof flashings</li>
+-->
 	</ul>
 </div>
 <!--

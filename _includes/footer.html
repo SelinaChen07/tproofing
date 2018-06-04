@@ -1,8 +1,8 @@
 <footer>
 	<!-- Start Information Area -->
-	<section class="p-5 bg-secondary text-white d-flex flex-md-row flex-column justify-content-around">
+	<section class="p-5 bg-secondary text-white row">
 			
-			<div>					
+			<div class="col-md-6 col-lg-3">					
 				<h3 class="font-weight-bold">TP ROOFING</h3>
 				<ul class="list-unstyled text-left">
 					<li><img src="{{"/assets/images/logo.jpg" | relative_url }}" id="logo" class="p-2 bg-white" alt="TP Roofing Logo"></li>
@@ -12,7 +12,7 @@
 				</ul>
 			</div>
 
-			<div>					
+			<div class="col-md-6 col-lg-3">					
 				<h3 class="font-weight-bold">USEFUL LINKS</h3>
 				<ul class="list-unstyled text-left">
 					<li><a class="text-white" href="{{"/about" | relative_url }}">> About us</a></li>
@@ -26,7 +26,7 @@
 				</ul>
 			</div>
 			
-			<div>
+			<div class="col-md-6 col-lg-3">
 				<h3 class="font-weight-bold">CONTACT US</h3>				
 				<ul class="list-unstyled text-left">
 					<li>Phone: 02 9888 6454</li>
@@ -34,6 +34,16 @@
 					<li>Email: tp@tproofing.com.au</li>
 					<li>Mail: &nbspPO Box 1074, Lane Cove NSW 1595</li>							
 				</ul>			
+			</div>
+
+			<div class="col-md-6 col-lg-3">
+				<h3 class="font-weight-bold">GALLERY</h3>				
+				<div>
+					{% for photo in site.data.gallery_footer %}						
+						<a href="{{"/gallery" | relative_url }}"><img src="{{photo.address|relative_url}}" alt="{{photo.title}}" class="img-fluid m-1 max_width_5"></a>				
+					{% endfor %}				
+					<a class="text-white btn btn-dark" href="{{"/gallery" | relative_url }}">More Photos >></a>			
+				</div>							
 			</div>
 	</section>
 	<!-- End Information Area -->

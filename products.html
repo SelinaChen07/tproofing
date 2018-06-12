@@ -18,12 +18,12 @@ layout: "wrapper"
                   <!-- Trigger the Modal -->
                   <img id="" src="{{product.image|relative_url}}" alt="TP Roofing - {{product.type}} Product" class="img_for_modal card-img-top w_85">                  
                 <!--
-                <a href="#{{product.type}}"><img src="{{product.image|relative_url}}" class="card-img-top w_85" alt="{{product.type}}"></a>
+                <a hreflang="en" href="#{{product.type}}"><img src="{{product.image|relative_url}}" class="card-img-top w_85" alt="{{product.type}}"></a>
                 -->
                 <div class="card-body">
-                  <h4 class="card-title"><a href="#{{product.type}}">{{product.type}}</a></h4>
+                  <h4 class="card-title"><a hreflang="en" href="#{{product.type}}">{{product.type}}</a></h4>
                   <p class="card-text">{{product.shortdes}}</p>
-                  <p class=""><a href="#{{product.type}}">More on {{product.type}} >> </a></p>
+                  <p class=""><a hreflang="en" href="#{{product.type}}">More on {{product.type}} >> </a></p>
                 </div>           
               </div>
             </div>
@@ -46,7 +46,7 @@ layout: "wrapper"
           <div class="border_bottom p-2" id="{{product.type}}">
             <h4 class="text-primary font-weight-bold">{{product.type}}</h4>
             <div>{{product.description}}</div>
-            <div class="text-right"><a href="#product_list" class="text-muted">Back to Our Products</a></div>
+            <div class="text-right"><a hreflang="en" href="#product_list" class="text-muted">Back to Our Products</a></div>
           </div>
         {% endfor %}
       </div>

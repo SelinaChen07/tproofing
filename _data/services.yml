@@ -18,11 +18,11 @@
     image: "/assets/images/services/"
 
   - name: Install leaf screen
-    permalink: /services/roof-repair-maintenance/
+    permalink: /services/roof-repair-maintenance/install-leaf-screen
     image: "/assets/images/services/"
 
   - name: Clean gutters and down pipes of debris
-    permalink: /services/roof-repair-maintenance/
+    permalink: /services/roof-repair-maintenance/clean-gutters-and-down-pipes-of-debris
     image: "/assets/images/services/"
 
   - name: Source and repair roof leaks

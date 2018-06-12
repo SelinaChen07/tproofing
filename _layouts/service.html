@@ -11,23 +11,23 @@ layout: "wrapper"
         </div><!-- /.service description -->
 
         
-        <aside class="col-md-4 col-lg-3">
+        <a hreflang="en"side class="col-md-4 col-lg-3">
           <div class="p-3 ">
             <ol class="list-unstyled mb-2">
             	{% for service in site.data.services %}
-            		<li class="border-top p-2"><a href="{{service.permalink | relative_url }}" class="{% if page.permalink == service.permalink %} font-weight-bold disabled_link {% endif %}">>{{service.title}}</a></li>
+            		<li class="border-top p-2"><a hreflang="en" href="{{service.permalink | relative_url }}" class="{% if page.permalink == service.permalink %} font-weight-bold disabled_link {% endif %}">>{{service.title}}</a></li>
                 {% if service.items %}
                 <ul class="ml-1 mb-2">
                   {% for service_item in service.items %}
-                    <li><a href="{{service_item.permalink | relative_url }}" class="{% if page.permalink == service_item.permalink %} font-weight-bold disabled_link {% endif %}">{{service_item.name}}</a></li>                    
+                    <li><a hreflang="en" href="{{service_item.permalink | relative_url }}" class="{% if page.permalink == service_item.permalink %} font-weight-bold disabled_link {% endif %}">{{service_item.name}}</a></li>                    
                   {% endfor %}
                 </ul>
                 {% endif %}
             	{% endfor %}
             <!--
-              <li class="border_bottom p-2"><a href="#">> Roof repairs and roof maintenance</a></li>
-              <li class="border_bottom p-2"><a href="#">> New roofs installations</a></li>
-              <li class="p-2"><a href="#">> Roof replacement (re-roofing)</a></li> 
+              <li class="border_bottom p-2"><a hreflang="en" href="#">> Roof repairs and roof maintenance</a></li>
+              <li class="border_bottom p-2"><a hreflang="en" href="#">> New roofs installations</a></li>
+              <li class="p-2"><a hreflang="en" href="#">> Roof replacement (re-roofing)</a></li> 
               -->             
             </ol>
           </div>          

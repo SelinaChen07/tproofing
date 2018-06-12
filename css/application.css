@@ -41,7 +41,7 @@ body, html {
 
 .cover_photo {
     /* The image used */
-    background-image: url("{{"/assets/images/cover_photo_revised.jpg"|relative_url}}");
+    background-image: url("{{"/assets/images/cover_photo.jpg"|relative_url}}");
 
     /* Full height */
     height: 85%; 

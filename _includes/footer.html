@@ -15,13 +15,13 @@
 			<div class="col-md-6 col-lg-3">					
 				<h3 class="font-weight-bold">USEFUL LINKS</h3>
 				<ul class="list-unstyled text-left">
-					<li><a class="text-white" href="{{"/about" | relative_url }}">> About us</a></li>
+					<li><a hreflang="en" class="text-white" href="{{"/about" | relative_url }}">> About us</a></li>
 					{% for service in site.data.services %}
-			    		<li><a class="text-white" href="{{service.permalink | relative_url }}">> {{service.title}}</a></li>
+			    		<li><a hreflang="en" class="text-white" href="{{service.permalink | relative_url }}">> {{service.title}}</a></li>
 					{% endfor %}
-					<li><a class="text-white" href="{{"/testimonials" | relative_url }}">> Testimonials</a></li>
-					<li><a class="text-white" href="{{"/products" | relative_url }}">> Our products</a></li>
-					<li><a class="text-white" href="{{"/contact" | relative_url }}">> Get a free quote</a></li>
+					<li><a hreflang="en" class="text-white" href="{{"/testimonials" | relative_url }}">> Testimonials</a></li>
+					<li><a hreflang="en" class="text-white" href="{{"/products" | relative_url }}">> Our products</a></li>
+					<li><a hreflang="en" class="text-white" href="{{"/contact" | relative_url }}">> Get a free quote</a></li>
 					
 				</ul>
 			</div>
@@ -40,9 +40,9 @@
 				<h3 class="font-weight-bold">GALLERY</h3>				
 				<div>
 					{% for photo in site.data.gallery_footer %}						
-						<a href="{{"/gallery" | relative_url }}"><img src="{{photo.address|relative_url}}" alt="{{photo.title}}" class="img-fluid m-1 max_width_5"></a>				
+						<a hreflang="en" href="{{"/gallery" | relative_url }}"><img src="{{photo.address|relative_url}}" alt="{{photo.title}}" class="img-fluid m-1 max_width_5"></a>				
 					{% endfor %}				
-					<a class="text-white btn btn-dark" href="{{"/gallery" | relative_url }}">More Photos >></a>			
+					<a hreflang="en" class="text-white btn btn-dark" href="{{"/gallery" | relative_url }}">More Photos >></a>			
 				</div>							
 			</div>
 	</section>

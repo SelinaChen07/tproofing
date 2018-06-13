@@ -26,23 +26,23 @@
     image: "/assets/images/services/"
 
   - name: Source and repair roof leaks
-    permalink: /services/roof-repair-maintenance/
+    permalink: /services/roof-repair-maintenance/source-and-repair-roof-leaks
     image: "/assets/images/services/"
 
   - name: Repair storm damaged roof
-    permalink: /services/roof-repair-maintenance/
+    permalink: /services/roof-repair-maintenance/repair-storm-damaged-roof
     image: "/assets/images/services/"
 
   - name: Replace valleys, gutters and downpipes
-    permalink: /services/roof-repair-maintenance/
+    permalink: /services/roof-repair-maintenance/replace-valleys-gutters-and-downpipes
     image: "/assets/images/services/"
 
   - name: Re-bed and point ridge caps and gable tiles
-    permalink: /services/roof-repair-maintenance/
+    permalink: /services/roof-repair-maintenance/re-bed-and-point-ridge-caps-and-gable-tiles
     image: "/assets/images/services/"
 
   - name: Install roof flashings
-    permalink: /services/roof-repair-maintenance/
+    permalink: /services/roof-repair-maintenance/install-roof-flashings
     image: "/assets/images/services/"
 
 

@@ -1,4 +1,4 @@
-- capitalname: "ROOF REPAIR AND MAINTENANCE"
+- capitalname: "ROOF REPAIR AND ROOF MAINTENANCE"
   icon: hammer
   title: Roof repair and roof maintenance
   permalink: /services/roof-repair-maintenance
@@ -9,8 +9,8 @@
     permalink: /services/roof-repair-maintenance/replace-broken-missing-tiles-ridge-caps
     image: "/assets/images/services/"
 
-  - name: Seal pest and possum entry points
-    permalink: /services/roof-repair-maintenance/seal-pest-and-possum-entry-points
+  - name: Seal possum entry points
+    permalink: /services/roof-repair-maintenance/seal-possum-entry-points
     image: "/assets/images/services/"
 
   - name: Install roof ventilation whirlybirds

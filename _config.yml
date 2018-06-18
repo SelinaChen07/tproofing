@@ -16,7 +16,7 @@
 title: TP Roofing
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  TP Roofing specializes in roofing services. We are licenced and insured in roof repair, roof replacement and roofing maintenance Sydney wide based in Ryde.
+  With over 25 years’ experience in roof repair, roof replacement and new roof installations. TP Roofing provides prompt, reliable and personal roofing services at an affordable price Sydney-wide.
 baseurl: "/tproofing" # the subpath of your site, e.g. /blog
 #baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -28,6 +28,8 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   With over 25 years' experience in roof repair, roof replacement and new roof installations. TP Roofing provides prompt, reliable and personal roofing services at an affordable price Sydney-wide.
 #baseurl: "/tproofing" # the subpath of your site, e.g. /blog
 baseurl: ""
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.tproofing.com.au" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 

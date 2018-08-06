@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- SEO plugin will have the title tag
     <title>
       {% if page.title %}
         {{ page.title }} |
       {% endif %}
     	 {{ site.title }}
     </title>
+    -->
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- SEO plugin will have the meta description
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    -->
 
     <!-- Add icon -->
     <link rel="shortcut icon" href="{{"/assets/images/logo.jpg" | relative_url }}" type="image/jpg">

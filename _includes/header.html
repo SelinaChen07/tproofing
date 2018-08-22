@@ -23,7 +23,7 @@
 						<a hreflang="en" class="nav-link dropdown-toggle text-white {% if page.title == 'Services' %} font-weight-bold {% endif %}" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">SERVICES</a>
 					    <div class="dropdown-menu">
 					    	{% for service in site.data.services %}
-					    		 <a hreflang="en" class="dropdown-item overflow_wrap border" href="{{service.permalink | relative_url }}">{{service.title}}</a>
+					    		 <a hreflang="en" class="dropdown-item overflow_wrap border" href="{{service.permalink | relative_url }}">{{service.linktext}}</a>
 					    	{% endfor %}
 					    <!--
 					      <a hreflang="en" class="dropdown-item" href="#">Action</a>
@@ -34,7 +34,7 @@
 					      -->
 					    </div>
 					</li>
-					<li class="nav-item"><a hreflang="en" class="nav-link text-white {% if page.title == 'About' %} font-weight-bold {% endif %}" href="{{"/about" | relative_url }}">ABOUT</a></li>					
+					<li class="nav-item"><a hreflang="en" class="nav-link text-white {% if page.title == 'About' %} font-weight-bold {% endif %}" href="{{"/about-roofing-specialist-sydney" | relative_url }}">ABOUT</a></li>					
 					<li class="nav-item"><a hreflang="en" class="nav-link text-white {% if page.title == 'Testimonials' %} font-weight-bold {% endif %}" href="{{"/testimonials" | relative_url }}">TESTIMONIALS</a></li>
 					<li class="nav-item mr-2"><a hreflang="en" class="nav-link text-white {% if page.title == 'Products' %} font-weight-bold {% endif %}" href="{{"/products" | relative_url }}">PRODUCTS</a></li>
 					<li class="nav-item mr-2"><a hreflang="en" class="nav-link text-white {% if page.title == 'Gallery' %} font-weight-bold {% endif %}" href="{{"/gallery" | relative_url }}">GALLERY</a></li>

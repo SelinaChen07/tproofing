@@ -1,5 +1,30 @@
 body{
-  padding-top: 6em;
+  padding-top: 96px;
+}
+
+.font_size_16{
+  font-size: 16px;
+}
+
+.font_size_32{
+  font-size: 32px;
+}
+
+.font_size_28{
+  font-size: 28px;
+}
+
+.font_size_20{
+  font-size: 20px;
+}
+
+.font_size_40{
+  font-size: 40px;
+}
+
+.padding_8{
+  padding-left: 8em;
+  padding-right: 8em;
 }
 
 .h_5{
@@ -33,6 +58,10 @@ body{
 .w_30{
   width: 30em;
   height: auto;
+}
+
+.w-85{
+  width: 85%;
 }
 
 .max_w_20{
@@ -88,14 +117,14 @@ body, html {
 }
 
 #logo{
-	width: 4em;
-  height: 4em;
+	width: 64px;
+  height: 64px;
 }
 
 .icon_home_service{
   line-height: 1;
   color: #007bff;
-  font-size: 1.6em;
+  font-size: 1.25em;
 }
 
 .icon_navbar{

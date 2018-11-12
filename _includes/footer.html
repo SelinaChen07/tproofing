@@ -1,6 +1,6 @@
 <footer>
 	<!-- Start Information Area -->
-	<section class="p-5 bg-secondary text-white row">
+	<section class="p-5 bg-secondary text-white row font_size_16">
 			
 			<div class="col-md-6 col-lg-3">					
 				<h3 class="font-weight-bold">TP ROOFING</h3>
@@ -42,7 +42,7 @@
 			</div>
 
 			<div class="col-md-6 col-lg-3">
-				<h3 class="font-weight-bold">GALLERY</h3>				
+				<h3 class="font-weight-bold font_size_28">GALLERY</h3>				
 				<div>
 					{% for photo in site.data.gallery_footer %}						
 						<a hreflang="en" href="{{"/gallery" | relative_url }}"><img src="{{photo.address|relative_url}}" alt="{{photo.title}}" class="img-fluid m-1 max_width_5"></a>				
